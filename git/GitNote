@@ -1,0 +1,84 @@
+1, 取一个远程分支 查看远程分支， git branch -r
+  结果：
+  origin/HEAD -> origin/master
+  origin/div_session
+  origin/master
+  origin/recharge
+  origin/session
+  origin/v1.1.2
+  origin/webapp
+
+  说明本工程除了主分支，还存在6个其他远程分支
+
+2, 获取远程分支到本地分支【第一次】
+
+   git checkout -b webapp origin/webapp
+                    本地     远程
+上面两个是获取【初始化】，下面是开发循环：
+
+3,  第2步会自动切换到当前的webapp分支【重要】，在这个基础上按照原来的开发模式，以webapp作为基础【重要】 新建分支
+   git checkout -b dev   --开发功能
+
+4, 正常提交  git add . | git commit 和之前无差异
+
+5,  推送到远程分支(Gerrit)
+   git push origin head:refs/for/webapp 【重要】
+
+   git push origin head:refs/for/master
+
+   Github
+  
+   git push <远程主机名> <本地分支名>:<远程分支名>
+
+6, 删除远程分支
+
+   git push <远程主机名> :<远程分支名>
+
+7, gerrit 审查
+
+8, 切换到本地分支 webapp ，并与远程同步
+   git checkout webapp
+   git pull origin webapp【重要】
+
+9, 删除本地开发分支 dev ，循环【3-8】
+
+10, 打tag
+   git tag -a v1.0.3 -m ‘1.0.3  time:15-01-13 11:13;'
+
+11, 提交tag
+   git push --tags
+
+12, 删除本地tag
+
+13, 删除远程tag
+   git push origin :refs/tags/v0.0.1
+
+14, 查看远程仓库信息
+   git remote show origin
+
+15, 删除不存在对应远程分支的本地分支
+   git fetch -p 或者 git remote prune origin
+
+16, 撤销错误的提交
+   git reset --hard <commit_id>
+   git push origin HEAD --force
+
+17, 撤销某次提交的其中的某个文件
+   git log -p file #首先查找文件的提交历史
+   git checkout <commit_id> file #找到需要回退到的commit id
+   git commit #然后commit就可以了
+
+18, 创建新的项目
+    create a new repository on the command line
+
+    echo "# nutch_1.12" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git remote add origin https://github.com/LeoDominicXu/nutch_1.12.git
+    git push -u origin master
+    
+    push an existing repository from the command line
+
+    git remote add origin https://github.com/LeoDominicXu/nutch_1.12.git
+    git push -u origin master

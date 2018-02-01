@@ -1,0 +1,2 @@
+1、用jmap分析内存快照：
+  分析Java进程内存	sudo /apps/jdk/bin/jmap -F -dump:live,format=b,file=./heap1.bin 7126
