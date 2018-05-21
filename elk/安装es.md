@@ -47,8 +47,8 @@ node.data: true#是否为数据节点，默认为true
 node.ingest: true#是否为数据转换节点，默认为true  
 discovery.zen.ping.unicast.hosts: ["10.0.0.1","10.0.0.2:9300"]#配置集群内其它节点的IP  
 discovery.zen.minimum_master_nodes: 3  
-#该配置用于集群网络出现异常时，防止脑裂导致的索引数据丢失。配置为：(集群中master节点总数)/ 2 + 1
-script.inline: true  
+#该配置用于集群网络出现异常时，防止脑裂导致的索引数据丢失。配置为：(集群中master节点总数)/ 2 + 1  
+script.inline: true    
 script.stored: true
 
 * 配置JVM参数
