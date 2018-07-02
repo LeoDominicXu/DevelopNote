@@ -2,6 +2,7 @@
 
 ## 新建一个docker-compose.yml文件内容如下
 ```bash
+# vim docker-compose.yml
 version: '2'
 services:
   broker1:
