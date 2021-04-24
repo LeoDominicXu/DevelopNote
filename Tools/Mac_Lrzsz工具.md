@@ -20,6 +20,6 @@ chmod 755 iterm2-*
 
     打开iterm2 ------  同时按 command和,键 ------- Profiles ----------  Default ------- Advanced ------ Triggers的Edit按钮
 
-    ![img](https://github.com/LeoDominicXu/DevelopNote/blob/master/Tools/img/lrzsz_00.jpeg)  
-    ![img](https://github.com/LeoDominicXu/DevelopNote/blob/master/Tools/img/lrzsz_01.jpeg)  
-    ![img](https://github.com/LeoDominicXu/DevelopNote/blob/master/Tools/img/lrzsz_02.png)
+    ![img](./img/lrzsz_00.jpeg)  
+    ![img](./img/lrzsz_01.jpeg)  
+    ![img](./img/lrzsz_02.png)
