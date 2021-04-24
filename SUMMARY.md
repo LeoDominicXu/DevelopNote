@@ -2,6 +2,7 @@
 
 ## Java
 * 服务治理
+  * [Dubbo架构](./Java/dubbo.md)
   * [DubboX](./Java/dubbo_rest.md)
   * [SpringCloud](./Java/spring_cloud_eureka_demo.md)
 
