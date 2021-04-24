@@ -9,7 +9,7 @@
 ## 中间件    
 * 消息中间件
   * Kafka
-    * [docker安装kafka集群](.kafka/docker_install_kafka_cluster.md)
+    * [docker安装kafka集群](./kafka/docker_install_kafka_cluster.md)
 
 * 资源层
   * Mysql
