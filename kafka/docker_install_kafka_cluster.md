@@ -1,6 +1,8 @@
-# docker安装kafka集群
+---
+title: docker安装kafka集群
+---
 
-## 新建一个docker-compose.yml文件内容如下
+## 新建一个docker-compose.yml文件内容如下  
 ```bash
 #vim docker-compose.yml
 version: '2'
@@ -47,7 +49,7 @@ services:
       - "9000:9000"
 ```
 
-## 运行
+## 运行  
 ```bash
 docker-compose up -d
 ```
