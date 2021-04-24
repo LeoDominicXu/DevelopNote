@@ -32,6 +32,9 @@
   * [Mac_Lrzsz工具](./Tools/Mac_Lrzsz工具.md)      
   
 ## 其他
+* 面试
+  * 操作系统
+    * [进程切换与线程切换](./interview/进程切换与线程切换.md)     
 * Hexo
   * [Hexo创建博客](./Others/hexo创建博客.md)     
   
