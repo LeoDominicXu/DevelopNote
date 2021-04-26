@@ -5,6 +5,7 @@
   * [Dubbo架构](./Java/dubbo.md)
   * [DubboX](./Java/dubbo_rest.md)
   * [SpringCloud](./Java/spring_cloud_eureka_demo.md)
+  * [SofaBoot多应用部署](./Java/sofa_boot_multi_app_deploy.md)
 
 ## 中间件    
 * 消息中间件
