@@ -14,11 +14,11 @@ SOFABoot 多模块部署
  
  GitHub: https://github.com/sofastack/sofa-ark
  
- # 非宿主应用  
+# 非宿主应用  
  ![img](./images/sofa-ark-test-test1-1.png) 
- ## 依赖
+## 依赖
  ![img](./images/sofa-ark-test-test1-2.png) 
- ## 增加build插件
+## 增加build插件
  
  ```bash  
  <build>
