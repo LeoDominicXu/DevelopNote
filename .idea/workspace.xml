@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12b06150-c27d-4fbd-83a9-0e1c96b5e583" name="Default Changelist" comment="" />
+    <list default="true" id="12b06150-c27d-4fbd-83a9-0e1c96b5e583" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +21,12 @@
     <session id="-1433458358">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -40,7 +43,7 @@
           <entry key="gitignore" value="1" />
           <entry key="jpeg" value="1" />
           <entry key="jpg" value="2" />
-          <entry key="md" value="21" />
+          <entry key="md" value="22" />
           <entry key="png" value="3" />
           <entry key="push到github时，每次都要输入用户名和密码的问题" value="1" />
           <entry key="如何诊断 Java 中的内存泄露" value="1" />
@@ -49,42 +52,30 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="6" />
-          <entry key="Markdown" value="21" />
+          <entry key="Markdown" value="22" />
           <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="696" />
+          <entry key="md" value="697" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="696" />
+          <entry key="Markdown" value="697" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Java/dubbo_rest.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor>
                 <caret selection-end-line="3" selection-end-column="77" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SUMMARY.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
               </first_editor>
               <second_editor />
             </state>
@@ -106,12 +97,24 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Java/sofa_boot_multi_app_deploy.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="136">
-                <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <first_editor relative-caret-position="300">
+                <caret line="20" selection-start-line="20" selection-end-line="20" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java/spring_cloud_eureka_demo.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret selection-end-line="1" selection-end-column="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -190,6 +193,7 @@
         <option value="$PROJECT_DIR$/interview/进程切换与线程切换.md" />
         <option value="$PROJECT_DIR$/SUMMARY.md" />
         <option value="$PROJECT_DIR$/Java/sofa_boot_multi_app_deploy.md" />
+        <option value="$PROJECT_DIR$/Java/spring_cloud_eureka_demo.md" />
       </list>
     </option>
   </component>
@@ -207,9 +211,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-1647" />
-    <option name="y" value="30" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1920" />
+    <option name="y" value="65" />
     <option name="width" value="1440" />
     <option name="height" value="803" />
   </component>
@@ -247,7 +251,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619430797392" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619488435597" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -289,18 +293,19 @@
       <workItem from="1619168767248" duration="6060000" />
       <workItem from="1619233034127" duration="212000" />
       <workItem from="1619236443752" duration="1625000" />
-      <workItem from="1619428127497" duration="3310000" />
+      <workItem from="1619428127497" duration="3994000" />
+      <workItem from="1619494375509" duration="26000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13058000" />
+    <option name="totallyTimeSpent" value="13768000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1647" y="30" width="1440" height="803" extended-state="1" />
+    <frame x="-1920" y="65" width="1440" height="803" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23390558" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23676682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -314,7 +319,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3206751" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3206751" />
       <window_info anchor="bottom" id="CheckStyle" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -430,6 +435,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Java/images/dubbo-framework.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/redis-concept.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-4407" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SUMMARY.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/images/sofa-ark-test-test1-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/images/sofa-ark-test-test-2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/images/sofa-ark-test-test1-2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/interview/进程切换与线程切换.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -465,27 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java/images/dubbo-framework.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/dubbo_rest.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="3" selection-end-column="77" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/redis-concept.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-4407" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java/dubbo.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -496,30 +510,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java/images/sofa-ark-test-test1-2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/images/sofa-ark-test-test1-1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/images/sofa-ark-test-test-2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SUMMARY.md">
+    <entry file="file://$PROJECT_DIR$/Java/sofa_boot_multi_app_deploy.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <first_editor relative-caret-position="300">
+            <caret line="20" selection-start-line="20" selection-end-line="20" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java/sofa_boot_multi_app_deploy.md">
+    <entry file="file://$PROJECT_DIR$/Java/spring_cloud_eureka_demo.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="136">
-            <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <first_editor>
+            <caret selection-end-line="1" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/dubbo_rest.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="3" selection-end-column="77" />
           </first_editor>
           <second_editor />
         </state>
