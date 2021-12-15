@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  redis-server:
+    image: docker.io/redis:6.0
+    container_name: redis-server
+    restart: always
+    command: redis-server /etc/redis/redis.conf --requirepass "dev"
+    volumes:
+      - /opt/redis/data:/data
+      - /opt/redis/conf/redis.conf:/etc/redis/redis.conf
+    ports:
+      - 6379:6379
